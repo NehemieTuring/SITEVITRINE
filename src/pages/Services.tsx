@@ -3,6 +3,7 @@ import { useTranslation } from '../contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import { Music, Database, Camera, GraduationCap } from 'lucide-react';
 
+
 const Services: React.FC = () => {
   const { t } = useTranslation();
 
@@ -58,6 +59,7 @@ const Services: React.FC = () => {
     }
   ];
 
+
   return (
     <div className="container mx-auto px-4 py-24 space-y-24">
       <div className="text-center max-w-2xl mx-auto">
@@ -104,16 +106,6 @@ const Services: React.FC = () => {
         ))}
       </div>
 
-      {/* Booking Hero in Services Page */}
-      <section className="bg-muted py-20 rounded-[3rem] px-8 text-center">
-         <h2 className="text-3xl font-serif font-bold mb-6">{t('services.booking.title')}</h2>
-         <p className="text-muted-foreground max-w-lg mx-auto mb-10">
-           {t('services.booking.subtitle')}
-         </p>
-         <button className="px-10 py-5 bg-brand text-white font-bold rounded-full hover:bg-brand-dark transition-all shadow-xl hover:shadow-brand/20">
-            {t('services.booking.cta')}
-         </button>
-      </section>
     </div>
   );
 };

@@ -180,7 +180,8 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         {children}
       </main>
 
-      <footer className="bg-secondary text-white dark:bg-black py-12 border-t border-white/5">
+      {location.pathname !== '/contact' && (
+        <footer className="bg-secondary text-white dark:bg-black py-12 border-t border-white/5">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div className="md:col-span-2">
@@ -200,7 +201,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     <Phone size={18} className="text-brand" />
                     <span className="group-hover:text-brand transition-colors">{t('contact.info.phone')}</span>
                  </a>
-                 <a href="mailto:kibino81@gmail.com" className="flex items-center space-x-3 group">
+                 <a href="mailto:winconceptindustrystudios@gmail.com" className="flex items-center space-x-3 group">
                     <Mail size={18} className="text-brand" />
                     <span className="group-hover:text-brand transition-colors">{t('contact.info.email_addr')}</span>
                  </a>
@@ -221,6 +222,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           </div>
         </div>
       </footer>
+      )}
     </div>
   );
 };
