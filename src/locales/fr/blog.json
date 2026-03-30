@@ -1,0 +1,24 @@
+{
+  "title": "Actualités & Insights",
+  "subtitle": "Restez informé des dernières nouvelles du monde créatif et de Win concept Industry.",
+  "news_tag": "Actualité",
+  "read_more": "Lire la Suite",
+  "expertise": "Expertise Win concept pour des résultats optimaux. Découvrez comment nous repoussons les limites.",
+  "posts": {
+    "mic": {
+      "title": "Choisir le Bon Micro pour le Chant",
+      "author": "Équipe Win concept",
+      "date": "15 Mars 2024"
+    },
+    "ai": {
+      "title": "L'Avenir du Management Musical à l'Ère de l'IA",
+      "author": "Sarah Manager",
+      "date": "10 Mars 2024"
+    },
+    "studio": {
+      "title": "Comment Construire Votre Propre Studio Créatif",
+      "author": "Alex Directeur",
+      "date": "5 Mars 2024"
+    }
+  }
+}

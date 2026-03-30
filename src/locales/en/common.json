@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "training": "Training",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "client": "Client Area"
+  },
+  "hero": {
+    "title": "Unlock Your Creative Potential",
+    "subtitle": "Multiservice creative studio: Music, Video, Management and Training.",
+    "cta": "Start Your Project"
+  },
+  "ui": {
+    "dark_mode": "Dark Mode",
+    "light_mode": "Light Mode",
+    "lang_en": "English",
+    "lang_fr": "Français"
+  },
+  "services": {
+    "desc": "Innovative solutions for professional results in"
+  },
+  "buttons": {
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "submit": "Submit",
+    "getInTouch": "Get in Touch"
+  },
+  "footer": {
+    "studio": "Win concept Industry",
+    "rights": "All rights reserved",
+    "newsletter": "Newsletter",
+    "join": "Join",
+    "description": "Creative Studio. Excellence and innovation in every project."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Don't just take our word for it, hear from the artists and professionals we work with.",
+    "alex": "Win concept changed my career trajectory. The sound quality is unmatched.",
+    "sarah": "Professional, efficient, and deeply creative. A joy to work with.",
+    "marc": "The strategy and marketing support are next level. Highly recommended."
+  },
+  "featured": {
+    "title": "Professional Studio Experience",
+    "description": "Our studio offers state-of-the-art equipment and acoustics to bring your sound to life.",
+    "list": ["High-end Preamp & EQ", "Neumann/AKG/Mics", "DAW with advanced plugins", "Pro Mastering Suite"],
+    "cta": "Book a Tour",
+    "satisfaction": "Client Satisfaction"
+  },
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Contact us today for a free consultation and let's bring your creative vision to life."
+  }
+}

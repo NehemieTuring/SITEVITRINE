@@ -1,0 +1,35 @@
+{
+  "title": "Contact Us",
+  "subtitle": "Tell us about your project and let us help you bring it to life.",
+  "info": {
+    "visit": "Visit Us",
+    "call": "Call Us",
+    "email": "Email Us",
+    "address": "Yaoundé, Cameroon",
+    "phone": "+237 656 422 854",
+    "email_addr": "kibino81@gmail.com"
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "service": "Service of Interest",
+    "message": "Project Description",
+    "submit": "Send Message",
+    "success": "Message sent successfully! We will contact you soon.",
+    "error": "Error sending message",
+    "error_desc": "Please check your configuration or try again later.",
+    "placeholders": {
+      "name": "Enter your full name",
+      "email": "Enter your email",
+      "service": "Select a service",
+      "message": "Describe your project in a few words"
+    },
+    "validation": {
+      "required": "Required",
+      "invalid_email": "Invalid email"
+    },
+    "other": "Other",
+    "send_another": "Send another message",
+    "try_again": "Try again"
+  }
+}

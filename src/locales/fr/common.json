@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Réalisations",
+    "training": "Formation",
+    "blog": "Blog",
+    "about": "À Propos",
+    "contact": "Contact",
+    "client": "Espace Client"
+  },
+  "hero": {
+    "title": "Libérez Votre Potentiel Créatif",
+    "subtitle": "Studio créatif multiservices : Musique, Vidéo, Management et Formation.",
+    "cta": "Démarrer Votre Projet"
+  },
+  "ui": {
+    "dark_mode": "Mode Sombre",
+    "light_mode": "Mode Clair",
+    "lang_en": "English",
+    "lang_fr": "Français"
+  },
+  "services": {
+    "desc": "Solutions innovantes pour des résultats professionnels en"
+  },
+  "buttons": {
+    "viewAll": "Voir tout",
+    "learnMore": "En savoir plus",
+    "submit": "Soumettre",
+    "getInTouch": "Entrer en contact"
+  },
+  "footer": {
+    "studio": "Win concept Industry",
+    "rights": "Tous droits réservés",
+    "newsletter": "Newsletter",
+    "join": "Rejoindre",
+    "description": "Studio Créatif. Excellence et innovation dans chaque projet."
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "subtitle": "Écoutez ce que les artistes et professionnels disent de nous.",
+    "alex": "Win concept a changé la trajectoire de ma carrière. La qualité sonore est inégalée.",
+    "sarah": "Professionnel, efficace et profondément créatif. Un plaisir de travailler avec eux.",
+    "marc": "La stratégie et le support marketing sont d'un autre niveau. Hautement recommandé."
+  },
+  "featured": {
+    "title": "Expérience Studio Professionnelle",
+    "description": "Notre studio propose des équipements et une acoustique de pointe pour donner vie à votre son.",
+    "list": ["Préamplis & EQ Haut de Gamme", "Micros Neumann/AKG", "DAW avec Plug-ins Avancés", "Suite de Mastering Pro"],
+    "cta": "Réserver une Visite",
+    "satisfaction": "Satisfaction Client"
+  },
+  "cta": {
+    "title": "Prêt à Démarrer Votre Projet ?",
+    "subtitle": "Contactez-nous aujourd'hui pour une consultation gratuite et donnons vie à votre vision créative."
+  }
+}

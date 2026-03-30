@@ -1,0 +1,1 @@
+const e="Our Works",t="Discover how we turn ideas into professional reality.",o={all:"All Projects",music:"Music",video:"Video",graphics:"Graphics",event:"Event"},i={view:"View Project",client:"Client",category:"Category",year:"Year"},s={title:e,subtitle:t,filters:o,labels:i};export{s as default,o as filters,i as labels,t as subtitle,e as title};

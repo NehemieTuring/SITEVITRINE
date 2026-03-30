@@ -1,0 +1,16 @@
+﻿src/components/media/UniversalPlayer.tsx(1,35): error TS6133: 'useEffect' is declared but its value is never read.
+src/components/media/UniversalPlayer.tsx(1,46): error TS6133: 'useCallback' is declared but its value is never read.
+src/components/media/UniversalPlayer.tsx(2,32): error TS6133: 'VolumeX' is declared but its value is never read.
+src/components/media/UniversalPlayer.tsx(2,61): error TS6133: 'SkipBack' is declared but its value is never read.
+src/components/media/UniversalPlayer.tsx(2,71): error TS6133: 'SkipForward' is declared but its value is never read.
+src/components/media/UniversalPlayer.tsx(34,10): error TS6133: 'isMuted' is declared but its value is never read.
+src/components/media/UniversalPlayer.tsx(34,19): error TS6133: 'setIsMuted' is declared but its value is never read.
+src/components/media/UniversalPlayer.tsx(37,10): error TS6133: 'isFullscreen' is declared but its value is never read.
+src/components/ui/SkeletonLoader.tsx(2,1): error TS6133: 'motion' is declared but its value is never read.
+src/hooks/useMouseIdle.ts(6,9): error TS6133: 'onActivity' is declared but its value is never read.
+src/pages/ClientArea.tsx(7,9): error TS6133: 't' is declared but its value is never read.
+src/pages/ServiceDetail.tsx(5,34): error TS6133: 'Star' is declared but its value is never read.
+src/pages/ServiceDetail.tsx(5,55): error TS6133: 'Code' is declared but its value is never read.
+src/pages/ServiceDetail.tsx(5,61): error TS6133: 'GraduationCap' is declared but its value is never read.
+src/pages/ServiceDetail.tsx(6,1): error TS6133: 'UniversalPlayer' is declared but its value is never read.
+src/pages/ServiceDetail.tsx(10,9): error TS6133: 't' is declared but its value is never read.

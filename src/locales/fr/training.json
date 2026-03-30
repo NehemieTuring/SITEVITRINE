@@ -1,0 +1,65 @@
+{
+  "title": "Formations Professionnelles",
+  "subtitle": "Maîtrisez les métiers de l'industry créative avec les experts de Win concept Industry. Nous proposons des programmes complets dans tous nos domaines d'expertise.",
+  "location": "Yaoundé, Cameroun",
+  "start_date": "Inscriptions Ouvertes",
+  "enroll": "S'inscrire maintenant",
+  "form": {
+    "title": "Inscription à la Formation",
+    "subtitle": "Remplissez ce formulaire et nous vous contacterons pour finaliser votre admission.",
+    "last_name": "Nom",
+    "first_name": "Prénom",
+    "address": "Adresse de Résidence",
+    "email": "Adresse E-mail",
+    "phone": "Numéro de Téléphone",
+    "service_select": "Service Spécialisé",
+    "submit": "Valider l'Inscription",
+    "success": "Inscription envoyée avec succès ! Notre équipe vous contactera bientôt.",
+    "placeholders": {
+      "last_name": "Votre nom de famille",
+      "first_name": "Votre prénom",
+      "address": "Quartier, Ville",
+      "email": "votre@email.com",
+      "phone": "+237...",
+      "select": "Sélectionnez un service"
+    }
+  },
+  "courses": [
+    {
+      "id": "music",
+      "title": "Production Musicale & Ingénierie Son",
+      "category": "Musique",
+      "description": "Apprenez l'enregistrement studio, le mixage, le mastering et la création de beats. Maîtrisez les outils professionnels comme Pro Tools et FL Studio pour produire des sons de qualité internationale.",
+      "price": "Sur Devis",
+      "image": "/assets/services/music-studio.jpg",
+      "services": ["Séance Studio", "Voix Off", "Spot Publicitaire", "Mix & Mastering", "Prise de Voix", "Son Personnalisé pour Film"]
+    },
+    {
+      "id": "management",
+      "title": "Management Artistique & Stratégie",
+      "category": "Management",
+      "description": "Devenez un expert en gestion de carrière d'artiste, distribution digitale et marketing musical. Apprenez à élaborer des plans de communication efficaces et à analyser des projets artistiques.",
+      "price": "Sur Devis",
+      "image": "/assets/services/artist-management.jpg",
+      "services": ["Management Artistique", "Distribution Digitale", "Stratégie Marketing", "Community Management", "Plan de Communication", "Analyse et Gestion de Projet"]
+    },
+    {
+      "id": "audiovisual",
+      "title": "Vidéo, Montage & Graphisme",
+      "category": "Audiovisuel",
+      "description": "Maîtrisez la réalisation vidéo, le cadrage, le montage et le design graphique. Créez des contenus visuels percutants pour les réseaux sociaux, la publicité et les clips musicaux.",
+      "price": "Sur Devis",
+      "image": "/assets/services/realization.jpg",
+      "services": ["Design Graphique", "Réalisation", "Script pour Clip", "Couverture d'Événement", "Contenu Vidéo"]
+    },
+    {
+      "id": "design",
+      "title": "Photographie & Retouche Pro",
+      "category": "Design",
+      "description": "Apprenez les techniques de prise de vue professionnelle, l'éclairage studio et la retouche photo avancée pour des résultats dignes des plus grands magazines.",
+      "price": "Sur Devis",
+      "image": "/assets/services/photography.jpg",
+      "services": ["Photographie", "Retouche Photo Avancée", "Éclairage Studio"]
+    }
+  ]
+}

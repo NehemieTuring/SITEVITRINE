@@ -1,0 +1,81 @@
+{
+  "title": "Our Services",
+  "subtitle": "A full spectrum of creative excellence adapted to your needs.",
+  "categories": {
+    "music": "Music Production",
+    "management": "Management & Strategy",
+    "video": "Video & Design",
+    "training": "Training & Courses"
+  },
+  "music": {
+    "studio": "Studio Session",
+    "voiceover": "Voice Over",
+    "spot": "Advertising Spot",
+    "mix": "Mix & Mastering",
+    "recording": "Voice Recording",
+    "ost": "Original Soundtrack"
+  },
+  "management": {
+    "artist": "Artist Management",
+    "distribution": "Digital Distribution",
+    "marketing": "Marketing & Strategy",
+    "cm": "Community Management",
+    "communication": "Communication Plan",
+    "analysis": "Project Analysis"
+  },
+  "video": {
+    "graphics": "Graphic Design",
+    "photo": "Photography",
+    "realization": "Realization",
+    "script": "Video Script",
+    "event": "Event Coverage",
+    "content": "Video Content"
+  },
+  "training": {
+    "all": "Professional Training",
+    "planning": "Planning",
+    "registration": "Registration"
+  },
+  "details": {
+    "music-studio": {
+      "title": "Studio Session",
+      "category": "Music Production",
+      "description": "Professional recording environment with high-end equipment and expert engineering.",
+      "features": ["Acoustic Treatment", "Neumann Mics", "Pro Tools Ultimate", "Analog Outboard Gear"],
+      "book": "Book Studio Session",
+      "pricing": "Starting from 50,000 FCFA"
+    },
+    "graphic-design": {
+      "title": "Graphic Design",
+      "category": "Video & Design",
+      "description": "Unique visual identities and creative designs for your brand and projects.",
+      "features": ["Logo Design", "Brand Identity", "Social Media Kits", "Print Layouts"],
+      "book": "Request Design",
+      "pricing": "Starting from 25,000 FCFA"
+    },
+    "video-content": {
+      "title": "Video Content",
+      "category": "Video & Design",
+      "description": "Engaging video content tailored for social media, advertising, and professional platforms.",
+      "features": ["4K Production", "Color Grading", "Motion Graphics", "Script Writing"],
+      "book": "Schedule Shoot",
+      "pricing": "Starting from 100,000 FCFA"
+    }
+  },
+  "booking": {
+    "title": "Need something specific?",
+    "subtitle": "Our team is ready to analyze your project and provide a tailored quote for your creative venture.",
+    "cta": "Request a Quote"
+  },
+  "labels": {
+    "pricing_for": "Pricing for",
+    "unique_project": "Every project is unique. We provide custom quotes based on your specific requirements and vision.",
+    "complexity": "Subject to project complexity",
+    "request_quote": "Request a quote for this service",
+    "email_placeholder": "Email Address",
+    "message_placeholder": "Tell us more about your project...",
+    "submit_request": "Submit Request",
+    "custom_quote": "Custom Quote",
+    "back": "Back to services"
+  }
+}

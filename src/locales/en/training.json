@@ -1,0 +1,65 @@
+{
+  "title": "Professional Training Courses",
+  "subtitle": "Master the creative industry professions with Win concept Industry experts. We offer comprehensive programs across all our fields of expertise.",
+  "location": "Yaoundé, Cameroon",
+  "start_date": "Open Enrollment",
+  "enroll": "Enroll Now",
+  "form": {
+    "title": "Course Registration",
+    "subtitle": "Complete this form and we will contact you to finalize your admission.",
+    "last_name": "Last Name",
+    "first_name": "First Name",
+    "address": "Residential Address",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "service_select": "Specialized Service",
+    "submit": "Validate Registration",
+    "success": "Registration successfully sent! Our team will contact you soon.",
+    "placeholders": {
+      "last_name": "Your last name",
+      "first_name": "Your first name",
+      "address": "District, City",
+      "email": "your@email.com",
+      "phone": "+237...",
+      "select": "Select a service"
+    }
+  },
+  "courses": [
+    {
+      "id": "music",
+      "title": "Music Production & Sound Engineering",
+      "category": "Music",
+      "description": "Learn studio recording, mixing, mastering and beatmaking. Master professional tools like Pro Tools and FL Studio to produce world-class sounds.",
+      "price": "Custom Quote",
+      "image": "/assets/services/music-studio.jpg",
+      "services": ["Studio Session", "Voice Over", "Advertising Spot", "Mix & Mastering", "Voice Recording", "Original Soundtrack"]
+    },
+    {
+      "id": "management",
+      "title": "Artist Management & Strategy",
+      "category": "Management",
+      "description": "Become an expert in career management, digital distribution and music marketing. Learn to develop effective communication plans and project analysis.",
+      "price": "Custom Quote",
+      "image": "/assets/services/artist-management.jpg",
+      "services": ["Artist Management", "Digital Distribution", "Marketing & Strategy", "Community Management", "Communication Plan", "Project Analysis"]
+    },
+    {
+      "id": "audiovisual",
+      "title": "Video, Editing & Graphic Design",
+      "category": "Audiovisual",
+      "description": "Master video production, directing, editing and graphic design. Create impact-driven visual content for social media, advertising and music videos.",
+      "price": "Custom Quote",
+      "image": "/assets/services/realization.jpg",
+      "services": ["Graphic Design", "Realization", "Video Script", "Event Coverage", "Video Content"]
+    },
+    {
+      "id": "design",
+      "title": "Professional Photography & Retouching",
+      "category": "Design",
+      "description": "Learn professional photography techniques, studio lighting and advanced photo retouching for results worthy of top-tier magazines.",
+      "price": "Custom Quote",
+      "image": "/assets/services/photography.jpg",
+      "services": ["Photography", "Advanced Retouching", "Studio Lighting"]
+    }
+  ]
+}

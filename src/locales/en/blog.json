@@ -1,0 +1,24 @@
+{
+  "title": "Insights & News",
+  "subtitle": "Stay updated with the latest in the creative world and Win concept Industry.",
+  "news_tag": "News",
+  "read_more": "Read More",
+  "expertise": "Win concept expertise for optimal results. Discover how we push the boundaries.",
+  "posts": {
+    "mic": {
+      "title": "Choosing the Right Mic for Vocals",
+      "author": "Win concept Team",
+      "date": "March 15, 2024"
+    },
+    "ai": {
+      "title": "The Future of Music Management in the AI Era",
+      "author": "Sarah Manager",
+      "date": "March 10, 2024"
+    },
+    "studio": {
+      "title": "How to Build Your Own Creative Studio",
+      "author": "Alex Director",
+      "date": "March 5, 2024"
+    }
+  }
+}
