@@ -116,9 +116,9 @@ const Home: React.FC = () => {
                     </li>
                   ))}
                </ul>
-               <button className="px-8 py-4 bg-white text-brand font-bold rounded-full hover:bg-brand-light transition-all shadow-xl">
+               <NavLink to="/contact" className="px-8 py-4 bg-white text-brand font-bold rounded-full hover:bg-brand-light transition-all shadow-xl inline-block">
                   {t('common.featured.cta')}
-               </button>
+               </NavLink>
             </div>
             <div className="relative group">
                <img 
