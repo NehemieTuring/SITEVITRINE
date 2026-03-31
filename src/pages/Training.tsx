@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useTranslation } from '../contexts/LanguageContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Calendar, MapPin, ArrowRight, GraduationCap, X, Send, User, Home, Mail, Phone } from 'lucide-react';
+import { Calendar, MapPin, GraduationCap, X, Send, User, Home, Mail, Phone } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 
 const Training: React.FC = () => {
@@ -19,10 +20,6 @@ const Training: React.FC = () => {
     service: ''
   });
 
-  const handleEnrollClick = (course: any) => {
-    setSelectedCourse(course);
-    setFormStatus('idle');
-  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -105,16 +102,7 @@ const Training: React.FC = () => {
                 <p className="text-muted-foreground leading-relaxed">
                    {course.description}
                 </p>
-                
-                <div className="flex items-center justify-end border-t border-border pt-8">
-                   <button 
-                     onClick={() => handleEnrollClick(course)}
-                     className="px-8 py-3 bg-accent text-brand rounded-full font-bold hover:bg-brand hover:text-white transition-all flex items-center space-x-2 shadow-lg"
-                   >
-                     <span>{t('training.enroll')}</span>
-                     <ArrowRight size={18} />
-                   </button>
-                </div>
+                {/* Button removed as requested */}
              </div>
           </motion.div>
         ))}
@@ -265,12 +253,12 @@ const Training: React.FC = () => {
           <div className="relative z-10 space-y-10">
              <h2 className="text-4xl lg:text-6xl font-serif font-bold tracking-tight">Envie de transformer votre passion en métier ?</h2>
              <p className="text-xl text-white/80 max-w-2xl mx-auto">Rejoignez Win concept Industry et bénéficiez de l'accompagnement des meilleurs professionnels du secteur.</p>
-             <button
-               onClick={() => setSelectedCourse(courses[0])}
+             <NavLink
+               to="/contact"
                className="inline-flex px-12 py-5 bg-white text-brand font-black rounded-full hover:bg-accent hover:text-brand transition-all shadow-2xl scale-110 lg:scale-125"
              >
                 Contactez Nous pour en savoir plus
-             </button>
+             </NavLink>
           </div>
       </section>
     </div>
