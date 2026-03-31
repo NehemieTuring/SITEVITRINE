@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build: ./
+    container_name: winconcept
+    restart: always
+    ports:
+      - "5172:80"     # accessible uniquement via Nginx
+networks:
+  fingou_net:
+    driver: bridge
+
