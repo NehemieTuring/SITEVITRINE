@@ -1,14 +1,34 @@
-# Dockerfile frontend pour production (build déjà fait localement)
+# Stage 1: Build
+FROM node:20-alpine AS build
 
-# Étape unique : serveur Caddy
-FROM caddy:2.7.6-alpine
+WORKDIR /app
 
-# Copier le build local (dist/) dans le conteneur
-# Assure-toi d'avoir fait npm run build localement avant
-COPY dist/ /usr/share/caddy
+# Copy package files and install dependencies
+COPY package*.json ./
+RUN npm install
 
-# Exposer le port 80
+# Copy all project files
+COPY . .
+
+# Build the application
+RUN npm run build
+
+# Stage 2: Serve with Nginx
+FROM nginx:stable-alpine
+
+# Copy the build output to Nginx's default public directory
+COPY --from=build /app/dist /usr/share/nginx/html
+
+# Add a configuration file for Nginx to handle React Router (SPA)
+RUN printf 'server {\n\
+    listen 80;\n\
+    location / {\n\
+        root /usr/share/nginx/html;\n\
+        index index.html index.htm;\n\
+        try_files $uri $uri/ /index.html;\n\
+    }\n\
+}' > /etc/nginx/conf.d/default.conf
+
 EXPOSE 80
 
-# Caddy sert automatiquement les fichiers statiques du dossier /usr/share/caddy
-
+CMD ["nginx", "-g", "daemon off;"]

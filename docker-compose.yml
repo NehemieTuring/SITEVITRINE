@@ -1,11 +1,17 @@
+version: '3.8'
+
 services:
   frontend:
-    build: ./
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: winconcept
     restart: always
     ports:
-      - "5172:80"     # accessible uniquement via Nginx
+      - "5172:80"
+    networks:
+      - fingou_net
+
 networks:
   fingou_net:
     driver: bridge
-
